@@ -11,15 +11,30 @@ img {
   div.a {
   text-align: center;
 }
+  div.absolute {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  bottom: 10px;
+  border: 3px solid #8AC007;
+} 
   </style>
 <title>
 Does Canada Exist?
 </title>
 </head>
 <body>
-<img src="no.jpg" style="width:50%;" class="center">
+<img src="no.jpg" style="width:30%;" class="center">
   <div class="a">
   <p style="font-size:2vw;"><font face="verdana">Canada doesn't exist.</font></p>
   </div>
+  <div class="absolute">
+    <p style="font-size:0.5vw;"><font face="verdana">Want to go back to the old site?<button onclick="legacysite()">Click here.</button></font></p>
+    <script>
+      function legacysite() {
+      window.location.replace("http://doescanadaexist.github.io/legacy");
+     }
+    </script>
+    
 </body>
 </html>
