@@ -12,10 +12,10 @@ img {
   text-align: center;
 }
   div.absolute {
-  margin: auto;
-  text-align: center;
+  position: absolute;
+  text-align: left;
   width: 20%;
-  bottom: 10px;
+  bottom: 5px;
 } 
   </style>
 <title>
@@ -28,12 +28,6 @@ Does Canada Exist?
   <p style="font-size:2vw;"><font face="verdana">Canada doesn't exist.</font></p>
   </div>
   <div class="absolute">
-    <p style="font-size:1vw;"><font face="verdana">Want to go back to the old site? <button onclick="legacysite()">Click here.</button></font></p>
-    <script>
-      function legacysite() {
-      window.location.replace("http://doescanadaexist.github.io/legacy");
-     }
-    </script>
-    
+    <a href="legacy.html">Click here to go to the legacy site.</a>
 </body>
 </html>
